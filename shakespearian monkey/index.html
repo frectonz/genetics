@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Genetics</title>
+  </head>
+  <style>
+    * {
+      font-family: fira code;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  </style>
+  <body>
+    <header>
+      <p>Best Phrase</p>
+      <h1 id="bestPhrase"></h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <p>
+            Total generation =>
+            <b id="totalGeneration"></b>
+          </p>
+        </div>
+        <div>
+          <p>
+            Average Fitness =>
+            <b id="averageFitness"></b>
+          </p>
+        </div>
+        <div>
+          <p>
+            Total Population =>
+            <b id="totalPopulation"></b>
+          </p>
+        </div>
+        <div>
+          <p>
+            Mutation Rate =>
+            <b id="mutationRate"></b>
+          </p>
+        </div>
+      </section>
+      <section>
+        <ul id="population"></ul>
+      </section>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
